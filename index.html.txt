@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>College Student | Tech Enthusiast | Aspiring Software Engineer</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I'm a college student at the University of North Carolina Pembroke with a passion for technology, reading, and science-related subjects. I'm currently studying computer science and aiming to maintain a strong GPA while pursuing a career in software engineering.</p>
+        </section>
+
+        <section>
+            <h2>My Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, Java, HTML, CSS</li>
+                <li>Areas of Interest: Cybersecurity, Software Development, Composition, and Math</li>
+                <li>Experience in: Biology, Project Management, Web Development</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Connect with Me</h2>
+            <p>Feel free to connect with me on LinkedIn!</p>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn Profile</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
